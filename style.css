@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./banner2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banner .left {
+    width: 50%;
+    height: auto;
+}
+
+.banner .left div {
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    margin: 20px 0;
+}
+
+.banner .left h3 {
+    color: yellow;
+    margin: 0 0 25px;
+    font-size: 30px;
+}
+
+.banner .left h1 {
+    color: #fff;
+    margin: 0 0 20px;
+}
+
+.banner .left span {
+    color: #fff;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.banner .left button {
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 40px 0 0;
+    color: #fff;
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn2 {
+    border: 2px solid #fff;
+    background: none;
+}
+
+.banner .left button:hover {
+    background-color: rgb(196, 196, 0);
+}
+
+#btn2:hover {
+    color: black;
+    background-color: #fff;
+}
+
+
+.right img {
+    width: 400px;
+    height: auto;
+}
+
+
+.banner-two {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.banner-two .left {
+    width: 50%;
+    height: auto;
+}
+
+.banner-two .left p {
+    font-size: 30px;
+    color: yellow;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-two .left div {
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    margin: 20px 0;
+}
+
+.banner-two .left i {
+    color: gray;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.banner-two .right {
+    width: 50%;
+    height: auto;
+}
+
+.banner-two .right p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.banner-two .right span {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.banner-two .right a {
+    padding: 13px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.banner-two .right a:hover {
+    background-color: rgb(196, 196, 0);
+
+}
+
+
+.banner-three {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner-three .card {
+    width: 445px;
+    height: 300px;
+    background-image: url(./card1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 200px 20px;
+}
+
+.banner-three #card2 {
+    background-image: url(./card2.jpg);
+}
+
+.banner-three #card3 {
+    background-image: url(./banner2.jpg);
+}
+
+.banner-three .card p {
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 1px 1px 5px black;
+}
+
+.banner-three .card div {
+    background-color: yellow;
+    width: 100px;
+    height: 3px;
+    margin: 20px 0;
+}
+
+.banner-three .card span {
+    color: #fff;
+    line-height: 25px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.banner-4 {
+    width: 100%;
+    height: 100vh;
+}
+
+/* .banner-4 .boxes .icon{
+    width: auto;
+    height: auto;
+    background-image: url(./Annotation\ 2023-12-09\ 151227.png);
+}  */
+.banner-4 .text {
+    text-align: center;
+    margin: 200px 0 0 0;
+}
+
+.banner-4 .text b {
+    color: yellow;
+    font-size: 30px;
+}
+
+.banner-4 .text .a1 {
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    margin: 20px auto;
+}
+
+.banner-4 .text h1 {
+    margin: 20px 0;
+}
+
+.banner-5 {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    padding-top: 70px;
+}
+
+.banner-5 p {
+    font-size: 30px;
+    color: yellow;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.banner-5 h1 {
+    color: #fff;
+}
+
+.banner-5 div {
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    margin: 15px auto;
+}
+
+
+
+
+
+.banner-6 {
+    width: 100%;
+    height: 7ss0vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.banner-6 .right {
+    width: 40%;
+    height: auto;
+}
+
+.banner-6 .left {
+    width: 50%;
+    height: auto;
+}
+
+.banner-6 p {
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+    margin: 15px 0;
+}
+
+.banner-6 h1 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.banner-6 .ss2 {
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    margin: 20px 0;
+}
+
+.banner-6 span {
+    line-height: 25px;
+}
+
+.banner-6 button {
+    padding: 10px 20px;
+    background-color: yellow;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.banner-6 button:hover {
+    background-color: rgb(165, 165, 25);
+}
+
+.banner-7 {
+    width: 100%;
+    height: 30vh;
+    background-image: url(./banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-7 .card h1 {
+    color: yellow;
+    margin: 5px 0;
+}
+
+.banner-7 .card p {
+    color: #fff;
+}
+
+.banner-7 .card div {
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    margin: 10px auto;
+}
+
+.banner-8 {
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+
+}
+
+.banner-8 p {
+    font-size: 30px;
+    color: yellow;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.banner-8 div {
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    margin: 20px auto;
+}
+
+.banner-9 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(43, 43, 43);
+}
+
+.banner-9 .text {
+    text-align: center;
+    padding: 2% 0;
+}
+
+.banner-9 .text p {
+    font-size: 30px;
+    color: yellow;
+    margin: 20px 0;
+}
+
+.banner-9 .text h1 {
+    color: #fff;
+}
+
+.banner-9 .text div {
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    margin: 20px auto;
+
+}
+
+.banner-9 .cards {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.banner-9 .cards .card1 {
+    width: 300px;
+    padding: 10%;
+    height: 200px;
+    border: 2px solid #fff;
+}
+
+.banner-9 .cards .card1 span {
+    color: #fff;
+    line-height: 25px;
+}
+
+.banner-9 .cards .card img {
+    margin: -50px 0;
+}
+
+.banner-9 .cards .card b {
+    color: yellow;
+    font-size: 20px;
+}
+
+.banner-9 .cards .card h2 {
+    color: #fff;
+}
+
+.banner-10 {
+    width: 100%;
+    height: 100vh;
+}
+
+.banner-10 .text {
+    text-align: center;
+}
+
+.banner-10 .text p {
+    font-size: 30px;
+    color: yellow;
+    margin: 20px 0;
+}
+
+.banner-10 .text div {
+    width: 100px;
+    height: 3px;
+    background-color: yellow;
+    margin: 20px auto;
+}
+
+.banner-10 .cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0 0;
+}
+
+.banner-10 .cards .card img {
+    width: 100%;
+    height: 60%;
+}
+
+.banner-10 .cards .card {
+    width: 300px;
+    height: 400px;
+}
+
+.banner-10 .cards .card p {
+    font-size: 30px;
+}
+
+.banner-10 .cards .card h6 {
+    color: gray;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.banner-10 .cards .card span {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.banner-10 .cards .card a {
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 0;
+    transition: 2s;
+}
+
+.banner-10 .cards .card a:hover {
+    border-bottom: 2px solid black;
+}
+
+.banner-11 {
+    width: 100%;
+    height: 50vh;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin: 50px 0 0 ;
+}
+.banner-11 .text h1,.banner-11 .text p{
+    color: #fff;
+    margin: 20px 0;
+}
+.banner-11 .btn button{
+    padding: 15px 25px;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.banner-11 .btn button:hover{
+    background-color: yellow;
+    background: #fff;
+    color: #000;
+}
+
+.banner-12{
+    width: 100%;
+    height: 15vh;
+    background: rgb(44, 44, 44);
+    text-align: center;
+    padding: 50px;
+}
+.banner-12 a{
+    color: yellow;
+}
+.banner-12 a:hover{
+    text-decoration: none;
+    color: orangered;
+}
